@@ -45,7 +45,7 @@ def MyCost_Algorithm(ucc, rrr, ptt, dd, l1 ,ins, In1):
     #Inventory cost for one unit of part i
     ic = {}
     for i in range(1,i+1):
-        ic[i] = 2
+        ic[i] = 1
         
     
     #Backlogging cost for one unit of part i
@@ -1239,5 +1239,6 @@ def MyCost_Algorithm(ucc, rrr, ptt, dd, l1 ,ins, In1):
     
 
                     
+
 
              
