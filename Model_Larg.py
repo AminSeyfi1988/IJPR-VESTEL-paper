@@ -39,7 +39,7 @@ def MyCost_Model(rrr, ptt, dd, l1 ,ins, In1):
     #Inventory cost for one unit of part i
     ic = {}
     for i in range(1,i+1):
-        ic[i] = 2
+        ic[i] = 1
         
     
     #Backlogging cost for one unit of part i
@@ -171,7 +171,7 @@ def MyCost_Model(rrr, ptt, dd, l1 ,ins, In1):
     #Workers salary
     #wc = [0,3000,2400,1700,1900,1500,2700,2100,700,1000,1300,1600,900,3000]
         
-    wc = [0,10000,17000,24000,19000,33000,27000,37000]
+    wc = [0,650,700,800,900,1100,1250,1400]
     
   
     # Cost of shift s
@@ -1164,4 +1164,5 @@ def MyCost_Model(rrr, ptt, dd, l1 ,ins, In1):
     
     
     
+
 
